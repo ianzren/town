@@ -4,6 +4,8 @@
   --font-sans: var(--font-sofia-sans);
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }

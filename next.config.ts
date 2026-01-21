@@ -4,8 +4,12 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'dice-media.imgix.net',
+        protocol: "https",
+        hostname: "dice-media.imgix.net",
+      },
+      {
+        protocol: "https",
+        hostname: "images.prismic.io",
       },
     ],
   },

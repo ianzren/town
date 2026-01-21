@@ -3,7 +3,7 @@ import { Sofia_Sans_Semi_Condensed } from "next/font/google";
 import "./globals.css";
 
 const sofiaSans = Sofia_Sans_Semi_Condensed({
-  weight: ['400', '700'],
+  weight: ["400", "700"],
   subsets: ["latin"],
   variable: "--font-sofia-sans",
 });
