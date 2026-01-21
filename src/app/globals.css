@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-sofia-sans);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}

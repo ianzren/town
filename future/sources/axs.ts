@@ -1,7 +1,6 @@
 import { JSDOM } from 'jsdom'
 import { DateTime } from 'luxon'
-
-import type { VenueEvent } from '../types'
+import type { VenueEvent } from '../../src/lib/types'
 
 function extractEvents(html: string, venue: string, timeZone: string): VenueEvent[] {
 	const events: VenueEvent[] = []

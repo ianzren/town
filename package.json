@@ -1,20 +1,29 @@
 {
-  "name": "kogs-in-town",
-  "module": "src/index.ts",
-  "type": "module",
+  "name": "town",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
   "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.19.1",
-    "jsdom": "^24.0.0",
-    "luxon": "^3.4.4"
+    "cheerio": "^1.1.2",
+    "luxon": "^3.7.2",
+    "next": "16.1.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@types/express": "^4.17.21",
-    "@types/jsdom": "^21.1.6",
-    "@types/luxon": "^3.4.2",
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+    "@tailwindcss/postcss": "^4",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
